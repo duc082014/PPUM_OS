@@ -8,5 +8,3 @@ And a mining algorithm:
  - HUI-Miner: https://doi.org/10.1145/2396761.2396773
 
 Launguage: Python3
-
-Any new ideas or suggesstions contact me via my personal email: duc082014@gmail.com
