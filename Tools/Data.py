@@ -35,7 +35,6 @@ def readQuantiativeData(data_path):
                 row[item]=utility
             itemsets.append(set(s))
             data[t]=row
-
             t+=1
 
     return data, np.array(itemsets)
@@ -85,7 +84,6 @@ def readHset(h_path=None):
             utility=int(float(lineSplitted[1]))
             itemset=set(map(int,lineSplitted[0].split(':')))
             size=len(itemset)
-        
             itemsets.append(itemset)
             utilities.append(utility)
             sizes.append(size)

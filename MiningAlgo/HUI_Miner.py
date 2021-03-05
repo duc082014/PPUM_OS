@@ -89,7 +89,7 @@ def construct_1_utilityList(data_path, table_path):
     #construct 1-utility-list
     for tid in data.keys():
         t_utils=0
-        for item in sorted(data[tid].keys(), key = lambda item: twu[item], reverse=True):
+        for item in sorted(data[tid].keys(), key = lambda item: twu[item], reverse=False):
                    
             iutils = tw[tid][item]
             t_utils+=iutils
