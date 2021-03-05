@@ -81,7 +81,7 @@ def construct_1_utilityList(data_path, table_path):
     tree={} #search spaces
     utilityList={}
     #init search space
-    for key, _ in sorted(twu.items(), key= lambda item: item[1], reverse=True):
+    for key, _ in sorted(twu.items(), key= lambda item: item[1], reverse=False):
         tree[key]={}
         initUtilityList(utilityList, key)
 
